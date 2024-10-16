@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: ;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-buttons button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-buttons button:first-child { /* Style the first button (Sign In) */
+    background-color: transparent;
+    color: #333; /* Change the color to match your navbar text */
+  }
+  
+  .nav-buttons button:last-child { /* Style the second button (Sign Up) */
+    background-color: #007bff;
+    color: white;
+  }
+
+.renter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article{
+    max-width: 23%;
+    margin-left: 10vw;
+    font-weight: 700;
+    
+}
+span{
+    color: #1572d3;
+
+}
+
+.container{
+    max-width: 720px;
+}
+
+.work{
+    background-color: #1572d31a;
+    color: var(--main-color);
+    border: 1px solid #1572d31a;
+    padding: 5px 20px;
+}
+.car{
+    max-width: 200px;
+}
+
+.us{
+    background-color: #1572d31a;
+    color: var(--main-color);
+    border: 1px solid #1572d31a;
+    padding: 5px 20px
+}
+.photo{
+    max-width: 540px;
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.photo1{
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+.f{
+    height: 2.3em;
+    border: 1px solid #cedcff;
+    border-radius: 15px;
+    background-color: #cedcff;
+    min-width: 200px;
+}
+.footer{
+    background: #051C34;
+}
